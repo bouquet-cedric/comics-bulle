@@ -1,0 +1,51 @@
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.w-full {
+  width: 100%;
+}
+.w-600 {
+  width: 600px;
+}
+
+.around {
+  justify-content: space-around;
+}
+.items-center {
+  align-items: center;
+}
+.m-3 {
+  margin: 1.25rem;
+}
+.m-auto {
+  margin: auto;
+}
+textarea {
+  resize: none;
+  overflow-y: hidden;
+}
+h3 {
+  text-align: center;
+  font-family: "anime";
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem 0.5rem;
+  background-color: transparent;
+  &:hover, &:focus {
+    background-color: #e8ebfa;
+    cursor: pointer;
+  }
+}
+
+@font-face {
+  font-family: "anime";
+  src: url("fonts/animeace2bb_ot/animeace2_reg.otf");
+}
